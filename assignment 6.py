@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 # Step 1: Read the excel file
-df = pd.read_excel(r"C:\Users\HP\Downloads\array.xlsx")
+df = pd.read_excel("array.xlsx")
 print(df)
 
 print("First five records only:")
